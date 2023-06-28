@@ -1,0 +1,294 @@
+### Default parameters loaded for all type 1 agents ###
+
+########################
+### GETUP PARAMETERS ###
+########################
+
+# getup off front params - optimized for no self collisions
+getup_parms_stateDownInitialWait	0.5
+getup_parms_stateDown3A1	16.568148350107915
+getup_parms_stateDown3L3	113.41133450590875
+getup_parms_stateDown3MinTime	0.04
+getup_parms_stateDown5L1	-39.17965858391402
+getup_parms_stateDown5MinTime	0.9
+getup_parms_stateDown7L1	-8.232686646848567
+getup_parms_stateDown7L3	62.10471861129633
+getup_parms_stateDown7MinTime	0.3
+getup_parms_stateDown10MinTime	0.8
+
+# getup off back params - optimized for no self collisions
+getup_parms_stateUpInitialWait	0.5
+getup_parms_stateUp3A1	-165.16130968225886
+getup_parms_stateUp3A2	42.58511262180544
+getup_parms_stateUp3A4	117.07281960213916
+getup_parms_stateUp3L3	55.45054826070052
+getup_parms_stateUp3MinTime	0.2
+getup_parms_stateUp5L3	115.49895139205304
+getup_parms_stateUp5MinTime	0.04
+getup_parms_stateUp7L1	-68.1166661743677
+getup_parms_stateUp7MinTime	0.2
+getup_parms_stateUp9A1	46.81694893244553
+getup_parms_stateUp9L1	-122.97859206412672
+getup_parms_stateUp9L4	-37.42441472881181
+getup_parms_stateUp9L5	-69.18081712780187
+getup_parms_stateUp9L6	-86.80191982495745
+getup_parms_stateUp9MinTime	0.2
+getup_parms_stateUp11A1	42.78745493987175
+getup_parms_stateUp11L1	-63.476728163679795
+getup_parms_stateUp11L5	-92.55995382987949
+getup_parms_stateUp11MinTime	0.4
+getup_parms_stateUp13A1	-50.62380061268099
+getup_parms_stateUp13L1	-27.678137746769536
+getup_parms_stateUp13L3	18.485095263513564
+getup_parms_stateUp13L4	14.273184019175599
+getup_parms_stateUp13L5	-58.9003662416826
+getup_parms_stateUp13MinTime	0.04 
+getup_parms_stateUp15MinTime	0.6
+
+
+#######################
+### KICK PARAMETERS ###
+#######################
+
+kick_p1	-21.878452192908963
+kick_p2	-107.2655684773586
+kick_p3	-46.03084224893723
+kick_p4	122.50096005151583
+kick_p5	36.70802042526406
+kick_p6	74.34964372370875
+kick_p7	-23.35326324263892
+kick_p8	-1.411851711850464
+kick_p9	4.8436144712052585
+kick_p11	-12.878536016473056
+kick_p12	8.73474032972045
+kick_p13	-2.0087222938685585
+kick_p14	2.4649510821897755
+kick_xoffset	-0.19721363030046984
+kick_yoffset	-0.07855676227334851
+kick_scale1	7.790202814460635
+kick_scale2	5.980745105156915
+kick_scale3	0.60539945683587
+
+
+#################################
+### OPTIMIZED WALK PARAMETERS ###
+#################################
+
+##<--Walk parameters for going to a target-->##
+/*
+These values are not UT Austin Villa's regular walking to target parameters,
+instead the team's parameters for positioning and dribbling are used as a 
+placeholder.  See the following paper for how these parameters were optimized: 
+---
+Design and Optimization of an Omnidirectional Humanoid Walk: A Winning Approach at the RoboCup 2011 3D Simulation Competition. 
+Patrick MacAlpine, Samuel Barrett, Daniel Urieli, Victor Vu, and Peter Stone.
+In Proceedings of the Twenty-Sixth AAAI Conference on Artificial Intelligence (AAAI), July 2012.
+---
+*/
+utwalk_max_step_size_angle	0.8024586090513253
+utwalk_max_step_size_x	108.7556110915902
+utwalk_max_step_size_y	74.4935510327151
+utwalk_shift_amount	-18.294447081916328
+utwalk_walk_height	149.02400810686044
+utwalk_step_height	77.51792538836638
+utwalk_fraction_still	0.3434245549175683
+utwalk_fraction_on_ground	-0.05778051267537769
+utwalk_phase_length	0.06196439965990527
+utwalk_default_com_pos_x	-49.92404794567735
+utwalk_pid_step_size_x	0.02913534549352995
+utwalk_pid_step_size_y	0.040069251483028374
+utwalk_pid_step_size_rot	0.08311984252228707
+utwalk_max_normal_com_error	14.173965772864628
+utwalk_max_acceptable_com_error	99.70250710214097
+utwalk_fwd_offset	1.620534424237782
+utwalk_fwd_offset_factor	0.8878126276949263
+utwalk_fraction_moving	0.7066620087173812
+utwalk_fraction_in_air	1.2265865010025827
+utwalk_swing_ankle_offset	-0.1276370985800854
+utwalk_pid_tilt	0.23481727883696232
+utwalk_pid_roll	-0.13254176315494343
+utwalk_pid_com_x	1.2839211224476685
+utwalk_pid_com_y	0.710246393252769
+utwalk_pid_com_z	0.09199521532665715
+utwalk_pid_arm_x	-0.28009850961801286
+utwalk_pid_arm_y	-0.15921680247098174
+
+##<--Walk parameters for positioning/dribbling-->##
+/*
+See the following paper for how these parameters were optimized: 
+---
+Design and Optimization of an Omnidirectional Humanoid Walk: A Winning Approach at the RoboCup 2011 3D Simulation Competition. 
+Patrick MacAlpine, Samuel Barrett, Daniel Urieli, Victor Vu, and Peter Stone.
+In Proceedings of the Twenty-Sixth AAAI Conference on Artificial Intelligence (AAAI), July 2012.
+---
+*/
+pos_utwalk_max_step_size_angle	0.8024586090513253
+pos_utwalk_max_step_size_x	108.7556110915902
+pos_utwalk_max_step_size_y	74.4935510327151
+pos_utwalk_shift_amount	-18.294447081916328
+pos_utwalk_walk_height	149.02400810686044
+pos_utwalk_step_height	77.51792538836638
+pos_utwalk_fraction_still	0.3434245549175683
+pos_utwalk_fraction_on_ground	-0.05778051267537769
+pos_utwalk_phase_length	0.06196439965990527
+pos_utwalk_default_com_pos_x	-49.92404794567735
+pos_utwalk_pid_step_size_x	0.02913534549352995
+pos_utwalk_pid_step_size_y	0.040069251483028374
+pos_utwalk_pid_step_size_rot	0.08311984252228707
+pos_utwalk_max_normal_com_error	14.173965772864628
+pos_utwalk_max_acceptable_com_error	99.70250710214097
+pos_utwalk_fwd_offset	1.620534424237782
+pos_utwalk_fwd_offset_factor	0.8878126276949263
+pos_utwalk_fraction_moving	0.7066620087173812
+pos_utwalk_fraction_in_air	1.2265865010025827
+pos_utwalk_swing_ankle_offset	-0.1276370985800854
+pos_utwalk_pid_tilt	0.23481727883696232
+pos_utwalk_pid_roll	-0.13254176315494343
+pos_utwalk_pid_com_x	1.2839211224476685
+pos_utwalk_pid_com_y	0.710246393252769
+pos_utwalk_pid_com_z	0.09199521532665715
+pos_utwalk_pid_arm_x	-0.28009850961801286
+pos_utwalk_pid_arm_y	-0.15921680247098174
+
+##<--Walk parameters for approaching the ball to kick-->##
+/*
+See the following paper for how these parameters were optimized: 
+---
+UT Austin Villa: RoboCup 2014 3D Simulation League Competition and Technical Challenge Champions.
+Patrick MacAlpine, Mike Depinet, Jason Liang, and Peter Stone.
+In RoboCup-2014: Robot Soccer World Cup XVIII, Lecture Notes in Artificial Intelligence, Springer Verlag, Berlin, 2015.
+---
+*/
+app_utwalk_max_step_size_angle	1.9381533235593797
+app_utwalk_max_step_size_x	71.63582250349182
+app_utwalk_max_step_size_y	144.900163304773
+app_utwalk_shift_amount	-21.907349427837936
+app_utwalk_walk_height	124.01200316628147
+app_utwalk_step_height	73.61066724376514
+app_utwalk_fraction_still	0.29939200115833986
+app_utwalk_fraction_on_ground	-0.18387526959605313
+app_utwalk_phase_length	0.06807206697299917
+app_utwalk_default_com_pos_x	-0.4084305647968729
+app_utwalk_pid_step_size_x	0.13707529143391334
+app_utwalk_pid_step_size_y	0.046927757158147856
+app_utwalk_pid_step_size_rot	0.12279629485746335
+app_utwalk_max_normal_com_error	46.11273420905612
+app_utwalk_max_acceptable_com_error	77.74540513509403
+app_utwalk_fwd_offset	0.13176552428735822
+app_utwalk_fwd_offset_factor	0.9684198651409902
+app_utwalk_fraction_moving	0.6237845064716534
+app_utwalk_fraction_in_air	1.317851312205039
+app_utwalk_swing_ankle_offset	-0.33789073267058567
+app_utwalk_pid_tilt	0.3581152193771387
+app_utwalk_pid_roll	-0.23108588849633932
+app_utwalk_pid_com_x	1.2931738443483614
+app_utwalk_pid_com_y	0.48451991950515516
+app_utwalk_pid_com_z	0.19893585988034976
+app_utwalk_pid_arm_x	-0.4310964222520728
+app_utwalk_pid_arm_y	-0.5753525616637605
+
+
+// Parameters for approaching the ball
+kick_gen_approach_turnDist	0.22650837898147766
+kick_gen_approach_buff	0.3335386081348905
+kick_gen_approach_estVelCorrection	-0.05248222665309938
+kick_gen_approach_navBallDist	0.5
+kick_gen_approach_navBallCollision	0.333
+//kick_gen_approach_navBallAngle	22.878438874871343
+kick_gen_approach_navBallAngle	20.0
+kick_gen_approach_maxDecelX	0.7930036316433737
+kick_gen_approach_maxDecelY	0.3368459512499765
+
+
+// Parameters for dribbling
+drib_coll_thresh				0.33582030312352373
+drib_target					0.17785682250297227
+
+
+
+# kickik
+kick_ik_0_xoffset	-0.15682081261276723
+kick_ik_0_yoffset	-0.008861143437747595
+kick_ik_0_x0	0.09315829496119322
+kick_ik_0_y0	0.044026873199038814
+kick_ik_0_z0	0.08993272478633167
+kick_ik_0_x1	-0.1499430721157246
+kick_ik_0_y1	0.16928521259364926
+kick_ik_0_z1	0.33231548125211513
+kick_ik_0_x2	-0.06403404807322355
+kick_ik_0_y2	-0.0777957879459716
+kick_ik_0_z2	0.021085904591344358
+kick_ik_0_x3	0.3238727151523294
+kick_ik_0_y3	-0.1341378705025853
+kick_ik_0_z3	0.28351563854319756
+kick_ik_0_a0	-2.047891529493969
+kick_ik_0_b0	4.191242028966208
+kick_ik_0_c0	-0.15233731131729297
+kick_ik_0_a1	-2.302171832784579
+kick_ik_0_b1	9.355770173068443
+kick_ik_0_c1	-5.506915157310711
+kick_ik_0_a2	2.284590332987274
+kick_ik_0_b2	0.004021471067912419
+kick_ik_0_c2	-16.326945041540863
+kick_ik_0_a3	-0.20286923805404186
+kick_ik_0_b3	77.16440705259224
+kick_ik_0_c3	-21.22012167813849
+kick_ik_0_wait	0.08434514310187124
+kick_ik_0_scale	2.464629395444756
+kick_ik_0_off3_0	6.79152574404598
+kick_ik_0_off4_0	23.93392749142096
+kick_ik_0_off5_0	-7.412367875488356
+kick_ik_0_off3_1	-16.66227540972807
+kick_ik_0_off4_1	20.268862244101395
+kick_ik_0_off5_1	-25.634960604986844
+kick_ik_0_off3_2	-50.02999949792415
+kick_ik_0_off4_2	-39.377927496018195
+kick_ik_0_off5_2	54.04596762966703
+
+#dajiao
+dajiao_kick_j00	0.925157942031053
+dajiao_kick_j01	0.827841169687884
+dajiao_kick_j02	1.3605728805382014
+dajiao_kick_j03	0.6693418453996953
+dajiao_kick_j04	-0.8681887770751685
+dajiao_kick_j05	-1.0387230765059152
+dajiao_kick_j06	3.3281494193279926
+dajiao_kick_j07	-0.7722272091736486
+dajiao_kick_j08	-0.0799943368992862
+dajiao_kick_j09	-0.537105233049934
+dajiao_kick_j10	2.221521554043446
+dajiao_kick_j11	1.6645074168569127
+dajiao_kick_j12	-0.6428305967408654
+dajiao_kick_j13	0.19167040294849036
+dajiao_kick_j14	0.051239184350639344
+dajiao_kick_j15	0.13366095807053713
+dajiao_kick_j16	1.1220120026096814
+dajiao_kick_j17	0.5375727392528118
+dajiao_kick_j18	2.956282417036217
+dajiao_kick_j30	-0.9902578289551235
+dajiao_kick_j31	-0.3205667947884927
+dajiao_kick_j32	0.18634443850125948
+dajiao_kick_j33	-1.3198399828818996
+dajiao_kick_j34	-0.7562346797859281
+dajiao_kick_j40	0.29566769022542794
+dajiao_kick_j41	0.5091052242107647
+dajiao_kick_j42	-0.41282692846585
+dajiao_kick_j43	-0.5052061966758861
+dajiao_kick_j50	0.6629701194773483
+dajiao_kick_j51	0.8312135632998734
+dajiao_kick_j52	0.12869816357080943
+dajiao_kick_j53	-0.9719821587660262
+dajiao_kick_j54	-2.0152348852126556
+dajiao_kick_j55	-2.429160186626732
+dajiao_kick_j56	-1.701388993461439
+dajiao_kick_j57	-1.6141181130359534
+dajiao_kick_j58	-2.1435578531455945
+dajiao_kick_j60	-2.9734566505753097
+dajiao_kick_j61	1.4423602222425838
+dajiao_kick_j62	0.14647114650912602
+dajiao_kick_j63	-1.9002037333882364
+dajiao_kick_j64	1.0992602922177308
+dajiao_kick_j65	-1.144106734676038
+dajiao_kick_j66	-0.25387338487845545
+dajiao_kick_j67	-1.44110216550243
+dajiao_kick_j68	-1.2836370982612795
