@@ -1,0 +1,3 @@
+/home/jjl/桌面/Miracle3D_main/Miracle3D_main/build/CMakeFiles/rebuild_cache.dir
+/home/jjl/桌面/Miracle3D_main/Miracle3D_main/build/CMakeFiles/agentspark.dir
+/home/jjl/桌面/Miracle3D_main/Miracle3D_main/build/CMakeFiles/edit_cache.dir
