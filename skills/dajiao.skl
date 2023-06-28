@@ -1,0 +1,94 @@
+# Time is in seconds.
+# Angles are in degrees.
+# 改造了大脚动作,添加参数
+
+STARTSKILL SKILL_DAJIAO_LEFT_LEG
+
+# State 0
+STARTSTATE
+settar EFF_LA1 -84 EFF_LA2 ( 0 + $dajiao_la0 ) EFF_LA3 -67 EFF_LA4 -52 EFF_LL1 0 EFF_LL2 ( 0 + $dajiao_kick_j00 ) EFF_LL3 ( 12 + $dajiao_kick_j10 ) EFF_LL4 ( -26 + $dajiao_kick_j30 ) EFF_LL5 20 EFF_LL6 0 EFF_LL7 25   end
+settar EFF_RA1 -84 EFF_RA2 ( 0 + $dajiao_ra0 ) EFF_RA3 67 EFF_RA4 52 EFF_RL1 0 EFF_RL2 ( 0 + $dajiao_kick_j40 ) EFF_RL3 ( 12 + $dajiao_kick_j50 ) EFF_RL4 ( -26 + $dajiao_kick_j60 ) EFF_RL5 20 EFF_RL6 0 EFF_RL7 45   end
+wait ( 0.25 + $dajiao_kick_w0 ) end
+ENDSTATE
+
+# State 1
+STARTSTATE
+settar EFF_LA1 -84 EFF_LA2 ( 0 + $dajiao_la0 )  EFF_LA3 -67 EFF_LA4 -52 EFF_LL1 0 EFF_LL2 ( 3 + $dajiao_kick_j01 )  EFF_LL3 ( 12 + $dajiao_kick_j10 ) EFF_LL4 ( -26 + $dajiao_kick_j30 ) EFF_LL5 21  EFF_LL6 -3 EFF_LL7 34   end
+settar EFF_RA1 -84 EFF_RA2 ( 0 + $dajiao_ra0 ) EFF_RA3 67 EFF_RA4 52 EFF_RL1 0 EFF_RL2 ( 3 + $dajiao_kick_j41 ) EFF_RL3 ( 12 + $dajiao_kick_j50 ) EFF_RL4 ( -26 + $dajiao_kick_j60 ) EFF_RL5 21  EFF_RL6 -3 EFF_RL7 47   end
+wait ( 0.05 + $dajiao_kick_w1 ) end
+ENDSTATE
+
+# State 2
+STARTSTATE
+settar EFF_LA1 -84 EFF_LA2 ( 0 + $dajiao_la0 )  EFF_LA3 -67 EFF_LA4 -52 EFF_LL1 0 EFF_LL2 ( 6 + $dajiao_kick_j02 )  EFF_LL3 ( 12 + $dajiao_kick_j10 ) EFF_LL4 ( -26 + $dajiao_kick_j30 ) EFF_LL5 22  EFF_LL6 -6 EFF_LL7 43   end
+settar EFF_RA1 -84 EFF_RA2 ( 0 + $dajiao_ra0 ) EFF_RA3 67 EFF_RA4 52 EFF_RL1 0 EFF_RL2 ( 6 + $dajiao_kick_j42 ) EFF_RL3 ( 12 + $dajiao_kick_j50 )  EFF_RL4 ( -26 + $dajiao_kick_j60 ) EFF_RL5 22  EFF_RL6 -6 EFF_RL7 49   end
+wait ( 0.05 + $dajiao_kick_w2 ) end
+ENDSTATE
+
+# State 3
+STARTSTATE
+settar EFF_LA1 -84 EFF_LA2 ( 0 + $dajiao_la0 )  EFF_LA3 -67 EFF_LA4 -52 EFF_LL1 0 EFF_LL2 ( 10 + $dajiao_kick_j03 )  EFF_LL3 ( 12 + $dajiao_kick_j10 ) EFF_LL4 ( -26 + $dajiao_kick_j30 ) EFF_LL5 23  EFF_LL6 -10 EFF_LL7 52   end
+settar EFF_RA1 -84 EFF_RA2 ( 0 + $dajiao_ra0 ) EFF_RA3 67 EFF_RA4 52 EFF_RL1 0 EFF_RL2 ( 10 + $dajiao_kick_j43 ) EFF_RL3 ( 12 + $dajiao_kick_j50 ) EFF_RL4 ( -26 + $dajiao_kick_j60 ) EFF_RL5 23  EFF_RL6 -10 EFF_RL7 52   end
+wait ( 0.1 + $dajiao_kick_w3 ) end
+ENDSTATE
+
+# State 4
+STARTSTATE
+settar EFF_LA1 -84 EFF_LA2 ( 0 + $dajiao_la0 )  EFF_LA3 -67 EFF_LA4 -52 EFF_LL1 0 EFF_LL2 ( 10 + $dajiao_kick_j04 )  EFF_LL3 ( 12 + $dajiao_kick_j11 ) EFF_LL4 ( -130 + $dajiao_kick_j31 ) EFF_LL5 47  EFF_LL6 -10 EFF_LL7 52   end
+settar EFF_RA1 -84 EFF_RA2 ( 0 + $dajiao_ra0 ) EFF_RA3 67 EFF_RA4 52 EFF_RL1 0 EFF_RL2 ( 10 + $dajiao_kick_j43 ) EFF_RL3 ( 12 + $dajiao_kick_j51 ) EFF_RL4 ( -26 + $dajiao_kick_j61 ) EFF_RL5 23  EFF_RL6 -10 EFF_RL7 52   end
+wait ( 0.1 + $dajiao_kick_w4 ) end
+ENDSTATE
+
+# State 5
+STARTSTATE
+settar EFF_LA1 -84 EFF_LA2 ( 0 + $dajiao_la0 )  EFF_LA3 -67 EFF_LA4 -52 EFF_LL1 0 EFF_LL2 ( 8 + $dajiao_kick_j05 )  EFF_LL3 ( 3 + $dajiao_kick_j12 ) EFF_LL4 ( -130 + $dajiao_kick_j31 ) EFF_LL5 28  EFF_LL6 -8 EFF_LL7 52   end
+settar EFF_RA1 -84 EFF_RA2 ( 0 + $dajiao_ra0 ) EFF_RA3 67 EFF_RA4 52 EFF_RL1 0 EFF_RL2 ( 10 + $dajiao_kick_j43 ) EFF_RL3 ( 18 + $dajiao_kick_j52 ) EFF_RL4 ( -20 + $dajiao_kick_j62 ) EFF_RL5 19  EFF_RL6 -10 EFF_RL7 52   end
+wait ( 0.05 + $dajiao_kick_w5 ) end
+ENDSTATE
+
+# State 6
+STARTSTATE
+settar EFF_LA1 -84 EFF_LA2 ( 0 + $dajiao_la0 )  EFF_LA3 -67 EFF_LA4 -52 EFF_LL1 0 EFF_LL2 ( 6 + $dajiao_kick_j06 )  EFF_LL3 ( -4 + $dajiao_kick_j13 ) EFF_LL4 ( -130 + $dajiao_kick_j31 ) EFF_LL5 13  EFF_LL6 -6 EFF_LL7 52   end
+settar EFF_RA1 -84 EFF_RA2 ( 0 + $dajiao_ra0 ) EFF_RA3 67 EFF_RA4 52 EFF_RL1 0 EFF_RL2 ( 10 + $dajiao_kick_j43 ) EFF_RL3 ( 22 + $dajiao_kick_j53 ) EFF_RL4 ( -15 + $dajiao_kick_j63 ) EFF_RL5 16  EFF_RL6 -10 EFF_RL7 52   end
+wait ( 0.05 + $dajiao_kick_w6 ) end
+ENDSTATE
+
+# State 7
+STARTSTATE
+settar EFF_LA1 -84 EFF_LA2 ( 0 + $dajiao_la0 )  EFF_LA3 -67 EFF_LA4 -52 EFF_LL1 0 EFF_LL2 ( 4 + $dajiao_kick_j07 )  EFF_LL3 ( -11 + $dajiao_kick_j14 ) EFF_LL4 ( -130 + $dajiao_kick_j31 ) EFF_LL5 0  EFF_LL6 -4 EFF_LL7 52   end
+settar EFF_RA1 -84 EFF_RA2 ( 0 + $dajiao_ra0 ) EFF_RA3 67 EFF_RA4 52 EFF_RL1 0 EFF_RL2 ( 10 + $dajiao_kick_j43 ) EFF_RL3 ( 26 + $dajiao_kick_j54 ) EFF_RL4 ( -11 + $dajiao_kick_j64 ) EFF_RL5 13  EFF_RL6 -10 EFF_RL7 52   end
+wait ( 0.05 + $dajiao_kick_w7 ) end
+ENDSTATE
+
+# State 8
+STARTSTATE
+settar EFF_LA1 -84 EFF_LA2 ( 0 + $dajiao_la0 )  EFF_LA3 -67 EFF_LA4 -52 EFF_LL1 0 EFF_LL2 ( 2 + $dajiao_kick_j08 )  EFF_LL3 ( -18 + $dajiao_kick_j15 ) EFF_LL4 ( -130 + $dajiao_kick_j31 ) EFF_LL5 -14  EFF_LL6 -2 EFF_LL7 52   end
+settar EFF_RA1 -84 EFF_RA2 ( 0 + $dajiao_ra0 ) EFF_RA3 67 EFF_RA4 52 EFF_RL1 0 EFF_RL2 ( 10 + $dajiao_kick_j43 ) EFF_RL3 ( 30 + $dajiao_kick_j55 ) EFF_RL4 ( -7 + $dajiao_kick_j65 ) EFF_RL5 10  EFF_RL6 -10 EFF_RL7 52   end
+wait ( 0.05 + $dajiao_kick_w8 ) end
+ENDSTATE
+
+# State 9
+STARTSTATE
+settar EFF_LA1 -84 EFF_LA2 ( 0 + $dajiao_la0 )  EFF_LA3 -67 EFF_LA4 -52 EFF_LL1 0 EFF_LL2 ( 0 + $dajiao_kick_j09 )  EFF_LL3 ( -25 + $dajiao_kick_j16 ) EFF_LL4 ( -130 + $dajiao_kick_j32 ) EFF_LL5 -29  EFF_LL6 0 EFF_LL7 52   end
+settar EFF_RA1 -84 EFF_RA2 ( 0 + $dajiao_ra0 ) EFF_RA3 67 EFF_RA4 52 EFF_RL1 0 EFF_RL2 ( 10 + $dajiao_kick_j43 ) EFF_RL3 ( 35 + $dajiao_kick_j56 ) EFF_RL4 ( -3 + $dajiao_kick_j66 ) EFF_RL5 7  EFF_RL6 -10 EFF_RL7 52   end
+wait ( 0.2 + $dajiao_kick_w9 ) end
+ENDSTATE
+
+# State 10
+STARTSTATE
+settar EFF_LA1 -84 EFF_LA2 ( 0 + $dajiao_la0 )  EFF_LA3 -67 EFF_LA4 -52 EFF_LL1 0 EFF_LL2 ( 0 + $dajiao_kick_j09 )  EFF_LL3 ( -25 + $dajiao_kick_j17 ) EFF_LL4 ( -130 + $dajiao_kick_j33 ) EFF_LL5 -29  EFF_LL6 0 EFF_LL7 25   end
+settar EFF_RA1 -84 EFF_RA2 ( 0 + $dajiao_ra0 ) EFF_RA3 67 EFF_RA4 52 EFF_RL1 0 EFF_RL2 ( 10 + $dajiao_kick_j43 ) EFF_RL3 ( 45 + $dajiao_kick_j57 ) EFF_RL4 ( 1 + $dajiao_kick_j67 ) EFF_RL5 -37  EFF_RL6 -10 EFF_RL7 45   end
+wait ( 0.16 + $dajiao_kick_w10 ) end
+ENDSTATE
+
+# State 11
+STARTSTATE
+settar EFF_LA1 -84 EFF_LA2 ( 0 + $dajiao_la0 )  EFF_LA3 -67 EFF_LA4 -52 EFF_LL1 0 EFF_LL2 ( 0 + $dajiao_kick_j09 )  EFF_LL3 ( 100 + $dajiao_kick_j18 ) EFF_LL4 ( -19 + $dajiao_kick_j34 ) EFF_LL5 -29  EFF_LL6 0 EFF_LL7 25   end
+settar EFF_RA1 -84 EFF_RA2 ( 0 + $dajiao_ra0 ) EFF_RA3 67 EFF_RA4 52 EFF_RL1 0 EFF_RL2 ( 10 + $dajiao_kick_j43 ) EFF_RL3 ( -25 + $dajiao_kick_j58 ) EFF_RL4 ( -130+ $dajiao_kick_j68 ) EFF_RL5 -37  EFF_RL6 -10 EFF_RL7 45   end
+wait ( 0.6 + $dajiao_kick_w11 ) end
+ENDSTATE
+
+ENDSKILL
+
+REFLECTSKILL SKILL_DAJIAO_LEFT_LEG SKILL_DAJIAO_RIGHT_LEG
+
